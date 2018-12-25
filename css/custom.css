@@ -16,7 +16,7 @@ body {
 }
 .form-control{
     font-size: 14px;
-    line-height: 15px;
+    line-height: 24px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: myFirstFontB;
@@ -794,7 +794,9 @@ body {
 #participation, #about-us {
     display: none;
 }
-
+#participation .form-control{
+    padding: 10px 15px 10px 20px
+}
 .register-section .table-1 tbody tr td {
     padding: 3px 0;
 }
