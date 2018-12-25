@@ -154,7 +154,7 @@
                                 <tr>
                                     <td>
                                         <div class="radio">
-                                            <input id="radio1" type="radio" class="radioc" name="radio" value="0">
+                                            <input id="radio1" type="radio" data-number="0" class="radioc" name="radio" value="0">
                                             <label for="radio1" class="radio-label"><span>الرياض</span></label>
                                         </div>
                                     </td>
@@ -164,7 +164,7 @@
                                 <tr>
                                     <td>
                                         <div class="radio">
-                                            <input id="radio2" type="radio" class="radioc" name="radio" value="1">
+                                            <input id="radio2" type="radio" class="radioc"  data-number="1" name="radio" value="1">
                                             <label for="radio2" class="radio-label"><span>الكويت</span></label>
                                         </div>
                                     </td>
@@ -174,7 +174,7 @@
                                 <tr>
                                     <td>
                                         <div class="radio">
-                                            <input id="radio3" type="radio" class="radioc" name="radio" value="1">
+                                            <input id="radio3" type="radio" data-number="1" class="radioc" name="radio" value="1">
                                             <label for="radio3" class="radio-label"><span>المنامة</span></label>
                                         </div>
                                     </td>
@@ -184,7 +184,7 @@
                                 <tr>
                                     <td>
                                         <div class="radio">
-                                            <input id="radio4" type="radio" class="radioc" name="radio" value="1">
+                                            <input id="radio4" type="radio" data-number="1" class="radioc" name="radio" value="1">
                                             <label for="radio4" class="radio-label"><span>أبو ظبي</span></label>
                                         </div>
                                     </td>
@@ -194,7 +194,7 @@
                                 <tr>
                                     <td>
                                         <div class="radio">
-                                            <input id="radio5" type="radio" class="radioc" name="radio" value="1">
+                                            <input id="radio5" type="radio" data-number="1" class="radioc" name="radio" value="1">
                                             <label for="radio5" class="radio-label"><span>مسقط</span></label>
                                         </div>
                                     </td>
@@ -204,7 +204,7 @@
                                 <tr>
                                     <td>
                                         <div class="radio">
-                                            <input id="radio6" type="radio" class="radioc" name="radio" value="1">
+                                            <input id="radio6" type="radio" data-number="1" class="radioc" name="radio" value="1">
                                             <label for="radio6" class="radio-label"><span>جدة</span></label>
                                         </div>
                                     </td>
@@ -373,13 +373,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="row align-items-end">
                         <div class="col-md-4 border-left-md">
                             <h5>احدى مبادرات</h5>
                             <img class="img-fluid" src="assets/images/moh-logo-1.png" alt="">
                         </div>
                         <div class="col-md-4">
-                            <img class="img-fluid" src="assets/images/moh-logo-1.png" alt="">
+                            <h5>بالشراكة مع</h5>
+                            <img class="img-fluid" src="images/hc-logo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -416,7 +417,7 @@
 
     $(document).ready(function () {
         $('.radioc').click(function () {
-            var st = $(this).val();
+            var st = $(this).attr("data-number");
             st = st.split(',');
             st = st[0];
             if (st == 1) {
