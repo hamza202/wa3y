@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5256ec93-863e-4baf-a159-2e606d81be01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/images/moh-logo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/moh-logo-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/w3i-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/w3i-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arabia-ts-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/arabia-ts-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hc-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/hc-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +36,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3261">
-              <caret line="206" column="91" selection-start-line="206" selection-start-column="91" selection-end-line="206" selection-end-column="91" />
+            <state relative-caret-position="315">
+              <caret line="397" column="34" selection-start-line="397" selection-start-column="34" selection-end-line="397" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -49,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="797" column="32" selection-start-line="797" selection-start-column="32" selection-end-line="797" selection-end-column="32" />
+            <state relative-caret-position="183">
+              <caret line="907" column="14" lean-forward="true" selection-start-line="907" selection-start-column="14" selection-end-line="907" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -95,7 +100,6 @@
       <find>324a5e</find>
       <find>.register-section h4</find>
       <find>#participation .form-control</find>
-      <find>participation</find>
       <find>Please enter a valid email address.</find>
       <find>.radio.radio-50 label.error</find>
       <find>two</find>
@@ -105,6 +109,9 @@
       <find>Changa</find>
       <find>.form-control</find>
       <find>phone-number</find>
+      <find>participation</find>
+      <find>.my-footer .col-md-4 h5</find>
+      <find>.top-logo-header img</find>
     </findStrings>
     <replaceStrings>
       <replace>00abdf</replace>
@@ -129,16 +136,15 @@
         <option value="$PROJECT_DIR$/javascript.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,18 +197,18 @@
       <workItem from="1545656103790" duration="6119000" />
       <workItem from="1545678900411" duration="8899000" />
       <workItem from="1545736356582" duration="7442000" />
-      <workItem from="1545768165081" duration="979000" />
+      <workItem from="1545768165081" duration="4849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32723000" />
+    <option name="totallyTimeSpent" value="36593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04462935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -334,17 +340,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3261">
-          <caret line="206" column="91" selection-start-line="206" selection-start-column="91" selection-end-line="206" selection-end-column="91" />
+        <state relative-caret-position="183">
+          <caret line="907" column="14" lean-forward="true" selection-start-line="907" selection-start-column="14" selection-end-line="907" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="797" column="32" selection-start-line="797" selection-start-column="32" selection-end-line="797" selection-end-column="32" />
+        <state relative-caret-position="315">
+          <caret line="397" column="34" selection-start-line="397" selection-start-column="34" selection-end-line="397" selection-end-column="34" />
         </state>
       </provider>
     </entry>

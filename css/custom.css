@@ -723,6 +723,7 @@ body {
 
 .top-logo-header img {
     max-height: 120px;
+    margin-top: 20px;
     max-width: 100%;
 }
 
@@ -758,7 +759,7 @@ body {
 }
 
 .table-1 thead {
-    background: #00abdf;
+    background: #7ebf7f;
 }
 
 .register-section {
@@ -865,8 +866,58 @@ body {
     color: #00abdf;
     font-size: 25px;
 }
+.my-footer .col-md-4 h6{
+    color: #00abdf;
+    font-size: 22px;
+}
+.my-footer .col-md-4 h6 + img{
+    max-width: 90%;
+}
+.my-footer .col-md-4 img{
+    max-height: 140px;
+}
 .my-footer{
     padding: 20px 0;
+}
+.my-footer{
+    margin: 20px 0;
+    border-top: 2px solid #00abdf;
+    border-bottom: 2px solid #00abdf;
+}
+.my-footer p{
+    font-size: 19px;
+    color: #00abdf;
+}
+.wrapper , html , body{
+    background: #fff;
+}
+p.hashtag{
+    position: relative;
+    padding-left: 9px;
+}
+p.hashtag::after{
+    position: absolute;
+    content: '';
+    display: block;
+    height: 17px;
+    width: 2px;
+    background-color: #423b8f;
+    left: 0;
+    bottom: 4px;
+}
+p.wa3y-footer{
+    color: #423b8f;
+    padding-right: 3px;
+}
+.footer-list-social li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50px;
+    background-color: #423b8f;
+    text-align: center;
+    color: #fff;
 }
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
@@ -899,17 +950,22 @@ body {
     }
 }
 @media (min-width: 767px) {
-    .border-left-md{
+    .border-left-md,
+    .border-left-sm{
         position: relative;
     }
-    .border-left-md::after{
+    .border-left-md::after ,
+    .border-left-sm::after{
         position: absolute;
         left: 0;
         width: 2px;
         height: 64%;
-        bottom: 20px;
+        bottom: 0px;
         content: '';
         display: block;
         background-color: #00abdf;
+    }
+    .border-left-sm::after{
+        height: 38%;
     }
 }
