@@ -6,6 +6,17 @@
     font-family: myFirstFontB;
     src: url(../fonts/FrutigerLTArabic-65Bold.ttf);
 }
+@font-face {
+    font-family: AraESNawar;
+    src: url(../fonts/AraESNawar-Regular.otf);
+}
+.section-title h2{
+    font-family: AraESNawar;
+    color: #00abdf;
+}
+.bg-overlay-black-70 .section-title h2{
+    font-family: myFirstFontB;
+}
 body {
     direction: rtl;
     font-family: myFirstFont;
@@ -741,12 +752,22 @@ body {
 }
 
 .register-section h4 {
-    border-bottom: 2px solid #00abdf;
+    position: relative;
     display: inline-block;
     padding-bottom: 5px;
     margin-bottom: 30px;
+    padding-right: 7px;
 }
-
+.register-section h4::after{
+    position: absolute;
+    content: '';
+    display: block;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #423b8f;
+}
 .table-1 tbody tr td {
     color: #6e6e6e;
     font-size: 17px;
@@ -778,7 +799,7 @@ body {
 }
 
 .register-section .table-striped tbody tr {
-    background: rgb(229, 229, 229);
+    background: #e3e270;
 }
 
 .register-section .table-striped tbody tr input {
@@ -863,30 +884,29 @@ body {
     text-align: center;
 }
 .my-footer .col-md-4 h5{
-    color: #00abdf;
-    font-size: 25px;
+    font-size: 21px;
 }
 .my-footer .col-md-4 h6{
-    color: #00abdf;
-    font-size: 22px;
+    font-size: 16px;
 }
 .my-footer .col-md-4 h6 + img{
     max-width: 90%;
 }
 .my-footer .col-md-4 img{
-    max-height: 140px;
+    max-height: 120px;
 }
 .my-footer{
     padding: 20px 0;
 }
 .my-footer{
-    margin: 20px 0;
-    border-top: 2px solid #00abdf;
-    border-bottom: 2px solid #00abdf;
+
 }
 .my-footer p{
     font-size: 19px;
     color: #00abdf;
+}
+.my-footer .acadime-logo{
+    max-width: 410px;
 }
 .wrapper , html , body{
     background: #fff;
@@ -918,6 +938,29 @@ p.wa3y-footer{
     background-color: #423b8f;
     text-align: center;
     color: #fff;
+}
+.page-section-ptb.bg-overlay-black-70{
+    padding: 100px 0 !important;
+}
+.my-footer{
+    position: relative;
+    overflow: hidden;
+}
+.my-footer span.after::after{
+    -webkit-transform:skew(-136deg);
+    -moz-transform:skew(-136deg);
+    transform:skew(-136deg);
+    position: absolute;
+    right: 29%;
+    content: '';
+    display: block;
+    background: #b9bbbd;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.bg-overlay-black-50:before{
+    background: rgba(0, 0, 0, 0.61);
 }
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
@@ -963,7 +1006,7 @@ p.wa3y-footer{
         bottom: 0px;
         content: '';
         display: block;
-        background-color: #00abdf;
+        background-color: #b9bbbd;
     }
     .border-left-sm::after{
         height: 38%;
