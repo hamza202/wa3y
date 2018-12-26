@@ -12,7 +12,7 @@
 }
 .section-title h2{
     font-family: AraESNawar;
-    color: #00abdf;
+    color: #fff;
 }
 .bg-overlay-black-70 .section-title h2{
     font-family: myFirstFontB;
@@ -745,10 +745,14 @@ body {
 .about-section .section-title {
     margin-bottom: 20px;
 }
-
+.about-section img{
+    position: relative;
+    z-index: 5;
+}
 .about-section p {
     font-size: 16px;
     text-align: justify;
+    color: #fff;
 }
 
 .register-section h4 {
@@ -961,6 +965,37 @@ p.wa3y-footer{
 }
 .bg-overlay-black-50:before{
     background: rgba(0, 0, 0, 0.61);
+}
+.about-section{
+    background: #423698;
+    position: relative;
+    overflow: hidden;
+}
+.about-section .about-section-after::after{
+    -webkit-transform:skew(-136deg);
+    -moz-transform:skew(-136deg);
+    transform:skew(-136deg);
+    position: absolute;
+    right: 57%;
+    content: '';
+    display: block;
+    background: #7ebf7f;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.about-img-svg-right{
+    position: absolute;
+    left: 0;
+    width: 20%;
+    top: 0;
+    height: auto;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+.overflow-hidden{
+    overflow: hidden;
 }
 @media (max-width: 991px) {
     .mega-menu .menu-logo {

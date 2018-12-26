@@ -35,25 +35,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="408" column="58" selection-start-line="408" selection-start-column="46" selection-end-line="408" selection-end-column="58" />
+            <state relative-caret-position="330">
+              <caret line="138" column="55" lean-forward="true" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Tajrobaty/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="368" column="28" selection-start-line="368" selection-end-line="388" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -71,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="1008" column="33" selection-start-line="1008" selection-start-column="33" selection-end-line="1008" selection-end-column="33" />
+            <state relative-caret-position="228">
+              <caret line="990" column="13" selection-start-line="990" selection-start-column="13" selection-end-line="990" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,8 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>leftbarsticky</find>
-      <find>menu</find>
       <find>desktopTopFixed</find>
       <find>mega-menu</find>
       <find>.default</find>
@@ -123,11 +111,17 @@
       <find>participation</find>
       <find>.my-footer .col-md-4 h5</find>
       <find>.top-logo-header img</find>
-      <find>هذا النص نص تجريبي قابل للتغير بنفس المساحة</find>
       <find>.register-section .table-striped tbody tr</find>
-      <find>.border-left-md::after, .border-left-sm::after</find>
       <find>.my-footer .col-md-4 img</find>
       <find>.bg-overlay-black-50:before</find>
+      <find>.border-left-md::after, .border-left-sm::after</find>
+      <find>.about-section .about-section-after::after</find>
+      <find>d-none d-lg-block about-img-svg</find>
+      <find>هذا النص نص تجريبي قابل للتغير بنفس المساحة</find>
+      <find>about-section</find>
+      <find>images/tab2bgRight.svg</find>
+      <find>about-img-svg-right</find>
+      <find>.about-img-svg-right</find>
     </findStrings>
     <replaceStrings>
       <replace>00abdf</replace>
@@ -214,15 +208,15 @@
       <workItem from="1545678900411" duration="8899000" />
       <workItem from="1545736356582" duration="7442000" />
       <workItem from="1545768165081" duration="4849000" />
-      <workItem from="1545816850205" duration="4238000" />
+      <workItem from="1545816850205" duration="7394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40831000" />
+    <option name="totallyTimeSpent" value="43987000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.04462935" />
@@ -368,16 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Tajrobaty/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="368" column="28" selection-start-line="368" selection-end-line="388" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -385,13 +369,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Tajrobaty/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3502">
+          <caret line="368" column="45" selection-start-line="368" selection-start-column="45" selection-end-line="368" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/tab2bgRight.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="408" column="58" selection-start-line="408" selection-start-column="46" selection-end-line="408" selection-end-column="58" />
+        <state relative-caret-position="330">
+          <caret line="138" column="55" lean-forward="true" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -400,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="1008" column="33" selection-start-line="1008" selection-start-column="33" selection-end-line="1008" selection-end-column="33" />
+        <state relative-caret-position="228">
+          <caret line="990" column="13" selection-start-line="990" selection-start-column="13" selection-end-line="990" selection-end-column="13" />
         </state>
       </provider>
     </entry>
