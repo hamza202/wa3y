@@ -728,12 +728,9 @@ body {
     color: #fff;
 }
 
-.top-header-social {
-    background-color: #333;
-}
 
 .top-logo-header img {
-    max-height: 120px;
+    max-height: 92px;
     margin-top: 20px;
     max-width: 100%;
 }
@@ -741,7 +738,18 @@ body {
 .business-banner-03 h1 {
     margin-bottom: 0;
 }
-
+.header.default{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    z-index: 5;
+    position: relative;
+    background-size: auto 100%;
+    background-position: center;
+    background: url(../images/bgLeft.svg) left 170px top -129px no-repeat;
+}
+.header .top-header-social{
+    padding-bottom: 15px;
+}
 .about-section .section-title {
     margin-bottom: 20px;
 }
@@ -757,10 +765,14 @@ body {
 
 .register-section h4 {
     position: relative;
+    z-index: 5;
     display: inline-block;
+    font-size: 25px;
     padding-bottom: 5px;
     margin-bottom: 30px;
     padding-right: 7px;
+    padding-left: 7px;
+    color: #fff;
 }
 .register-section h4::after{
     position: absolute;
@@ -772,13 +784,26 @@ body {
     width: 3px;
     background-color: #423b8f;
 }
+.register-section h4::before{
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #423b8f;
+}
 .table-1 tbody tr td {
     color: #6e6e6e;
     font-size: 17px;
     padding: 12px 0;
     text-align: center;
 }
-
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+}
 .table-1 thead tr th {
     font-size: 18px;
 }
@@ -788,22 +813,21 @@ body {
 }
 
 .register-section {
-    background: url(../assets/images/location-bg.jpg);
     position: relative;
 }
 
-.register-section::before {
-    position: absolute;
-    content: '';
-    display: block;
-    background-color: rgba(255, 255, 255, 0.76);
-    width: 100%;
-    height: 100%;
-    top: 0;
-}
+/*.register-section::before {*/
+    /*position: absolute;*/
+    /*content: '';*/
+    /*display: block;*/
+    /*background-color: rgba(255, 255, 255, 0.76);*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*top: 0;*/
+/*}*/
 
 .register-section .table-striped tbody tr {
-    background: #e3e270;
+    background: #d5d5d5;
 }
 
 .register-section .table-striped tbody tr input {
@@ -888,16 +912,16 @@ body {
     text-align: center;
 }
 .my-footer .col-md-4 h5{
-    font-size: 21px;
+    font-size: 18px;
 }
 .my-footer .col-md-4 h6{
-    font-size: 16px;
+    font-size: 14px;
 }
 .my-footer .col-md-4 h6 + img{
     max-width: 90%;
 }
 .my-footer .col-md-4 img{
-    max-height: 120px;
+    max-height: 90px;
 }
 .my-footer{
     padding: 20px 0;
@@ -907,7 +931,7 @@ body {
 }
 .my-footer p{
     font-size: 19px;
-    color: #00abdf;
+    color: #423b8f;
 }
 .my-footer .acadime-logo{
     max-width: 410px;
@@ -955,7 +979,7 @@ p.wa3y-footer{
     -moz-transform:skew(-136deg);
     transform:skew(-136deg);
     position: absolute;
-    right: 29%;
+    right: 22%;
     content: '';
     display: block;
     background: #b9bbbd;
@@ -963,8 +987,15 @@ p.wa3y-footer{
     width: 100%;
     top: 0;
 }
+.about-section p.pp{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 28px;
+    margin-top: 25px;
+}
 .bg-overlay-black-50:before{
-    background: rgba(0, 0, 0, 0.61);
+    background-image: linear-gradient(to bottom, rgba(10,170,222,0.8) 0%,rgba(10,170,222,0.2) 100%);
 }
 .about-section{
     background: #423698;
@@ -984,13 +1015,44 @@ p.wa3y-footer{
     width: 100%;
     top: 0;
 }
-
+.register-section .register-after::after{
+    -webkit-transform:skew(-136deg);
+    -moz-transform:skew(-136deg);
+    transform:skew(-136deg);
+    position: absolute;
+    right: 57%;
+    content: '';
+    display: block;
+    background: #00ABDF;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.register-section{
+    background: #e3e270;
+}
 .about-img-svg-right{
     position: absolute;
-    left: 0;
+    left: -11px;
     width: 20%;
-    top: 0;
+    top: 20px;
     height: auto;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+.register-section table{
+    position: relative;
+    z-index: 5;
+
+}
+.default{
+    position: relative;
+}
+.register-section-svg-right{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
     z-index: 1;
     transform: rotate(180deg);
 }
