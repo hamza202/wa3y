@@ -2,36 +2,45 @@
     font-family: myFirstFont;
     src: url(../fonts/FrutigerLTArabic-55Roman.ttf);
 }
+
 @font-face {
     font-family: myFirstFontB;
     src: url(../fonts/FrutigerLTArabic-65Bold.ttf);
 }
+
 @font-face {
     font-family: AraESNawar;
     src: url(../fonts/AraESNawar-Regular.otf);
 }
-.section-title h2{
+
+.section-title h2 {
     font-family: AraESNawar;
     color: #fff;
 }
-.bg-overlay-black-70 .section-title h2{
+
+.bg-overlay-black-70 .section-title h2 {
     font-family: myFirstFontB;
 }
+
 body {
     direction: rtl;
     font-family: myFirstFont;
 }
-.button{
+
+.button {
     font-family: myFirstFont;
     font-size: 15px;
 }
-.form-control{
+
+.form-control {
     font-size: 14px;
     line-height: 24px;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: myFirstFontB;
 }
+
 /*.owl-carousel{*/
 /*direction: ltr;*/
 /*}*/
@@ -738,7 +747,8 @@ body {
 .business-banner-03 h1 {
     margin-bottom: 0;
 }
-.header.default{
+
+.header.default {
     padding-bottom: 20px;
     padding-top: 20px;
     z-index: 5;
@@ -747,16 +757,20 @@ body {
     background-position: center;
     background: url(../images/bgLeft.svg) left 170px top -129px no-repeat;
 }
-.header .top-header-social{
+
+.header .top-header-social {
     padding-bottom: 15px;
 }
+
 .about-section .section-title {
     margin-bottom: 20px;
 }
-.about-section img{
+
+.about-section img {
     position: relative;
     z-index: 5;
 }
+
 .about-section p {
     font-size: 16px;
     text-align: justify;
@@ -774,7 +788,8 @@ body {
     padding-left: 7px;
     color: #fff;
 }
-.register-section h4::after{
+
+.register-section h4::after {
     position: absolute;
     content: '';
     display: block;
@@ -784,7 +799,8 @@ body {
     width: 3px;
     background-color: #423b8f;
 }
-.register-section h4::before{
+
+.register-section h4::before {
     position: absolute;
     content: '';
     display: block;
@@ -794,16 +810,19 @@ body {
     width: 3px;
     background-color: #423b8f;
 }
+
 .table-1 tbody tr td {
     color: #6e6e6e;
     font-size: 17px;
     padding: 12px 0;
     text-align: center;
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
     overflow: hidden;
 }
+
 .table-1 thead tr th {
     font-size: 18px;
 }
@@ -817,13 +836,13 @@ body {
 }
 
 /*.register-section::before {*/
-    /*position: absolute;*/
-    /*content: '';*/
-    /*display: block;*/
-    /*background-color: rgba(255, 255, 255, 0.76);*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*top: 0;*/
+/*position: absolute;*/
+/*content: '';*/
+/*display: block;*/
+/*background-color: rgba(255, 255, 255, 0.76);*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*top: 0;*/
 /*}*/
 
 .register-section .table-striped tbody tr {
@@ -844,9 +863,11 @@ body {
 #participation, #about-us {
     display: none;
 }
-#participation .form-control{
+
+#participation .form-control {
     padding: 10px 15px 10px 20px
 }
+
 .register-section .table-1 tbody tr td {
     padding: 3px 0;
 }
@@ -908,42 +929,54 @@ body {
     background-color: #b9e4f1;
     height: 47px;
 }
-.my-footer .col-md-4{
+
+.my-footer .col-md-4 {
     text-align: center;
 }
-.my-footer .col-md-4 h5{
+
+.my-footer .col-md-4 h5 {
     font-size: 18px;
 }
-.my-footer .col-md-4 h6{
+
+.my-footer .col-md-4 h6 {
     font-size: 14px;
 }
-.my-footer .col-md-4 h6 + img{
+
+.my-footer .col-md-4 h6 + img {
     max-width: 90%;
 }
-.my-footer .col-md-4 img{
+
+.my-footer .col-md-4 img {
     max-height: 90px;
 }
-.my-footer{
+
+.my-footer {
     padding: 20px 0;
 }
-.my-footer{
+
+.my-footer {
 
 }
-.my-footer p{
+
+.my-footer p {
     font-size: 19px;
     color: #423b8f;
 }
-.my-footer .acadime-logo{
+
+.my-footer .acadime-logo {
     max-width: 410px;
 }
-.wrapper , html , body{
+
+.wrapper, html, body {
     background: #fff;
 }
-p.hashtag{
+
+p.hashtag {
     position: relative;
     padding-left: 9px;
 }
-p.hashtag::after{
+
+p.hashtag::after {
     position: absolute;
     content: '';
     display: block;
@@ -953,11 +986,13 @@ p.hashtag::after{
     left: 0;
     bottom: 4px;
 }
-p.wa3y-footer{
+
+p.wa3y-footer {
     color: #423b8f;
     padding-right: 3px;
 }
-.footer-list-social li a{
+
+.footer-list-social li a {
     display: block;
     width: 32px;
     height: 32px;
@@ -967,17 +1002,20 @@ p.wa3y-footer{
     text-align: center;
     color: #fff;
 }
-.page-section-ptb.bg-overlay-black-70{
+
+.page-section-ptb.bg-overlay-black-70 {
     padding: 100px 0 !important;
 }
-.my-footer{
+
+.my-footer {
     position: relative;
     overflow: hidden;
 }
-.my-footer span.after::after{
-    -webkit-transform:skew(-136deg);
-    -moz-transform:skew(-136deg);
-    transform:skew(-136deg);
+
+.my-footer span.after::after {
+    -webkit-transform: skew(-136deg);
+    -moz-transform: skew(-136deg);
+    transform: skew(-136deg);
     position: absolute;
     right: 22%;
     content: '';
@@ -987,51 +1025,61 @@ p.wa3y-footer{
     width: 100%;
     top: 0;
 }
-.about-section p.pp{
+
+.about-section p.pp {
     color: #fff;
     text-align: center;
     margin-bottom: 0;
     font-size: 28px;
     margin-top: 25px;
 }
-.bg-overlay-black-50:before{
-    background-image: linear-gradient(to bottom, rgba(10,170,222,0.8) 0%,rgba(10,170,222,0.2) 100%);
+
+.bg-overlay-black-50:before {
+    background-image: linear-gradient(to bottom, rgba(10, 170, 222, 0.8) 0%, rgba(10, 170, 222, 0.2) 100%);
 }
-.about-section{
+
+.about-section {
     background: #423698;
     position: relative;
     overflow: hidden;
 }
-.about-section .about-section-after::after{
-    -webkit-transform:skew(-136deg);
-    -moz-transform:skew(-136deg);
-    transform:skew(-136deg);
+
+.about-section .about-section-after::after {
+    -webkit-transform: skew(-136deg);
+    -moz-transform: skew(-136deg);
+    transform: skew(-136deg);
     position: absolute;
     right: 57%;
     content: '';
     display: block;
     background: #7ebf7f;
     height: 100%;
-    width: 100%;
+    width: 180%;
     top: 0;
 }
-.register-section .register-after::after{
-    -webkit-transform:skew(-136deg);
-    -moz-transform:skew(-136deg);
-    transform:skew(-136deg);
+
+.register-section .register-after::after {
+    -webkit-transform: skew(-136deg);
+    -moz-transform: skew(-136deg);
+    transform: skew(-136deg);
     position: absolute;
     right: 57%;
     content: '';
     display: block;
     background: #00ABDF;
     height: 100%;
-    width: 100%;
+    width: 120%;
     top: 0;
 }
-.register-section{
+.custom-file-label::after {
+    content: 'اختر ملف';
+    font-family: myFirstFont;
+}
+.register-section {
     background: #e3e270;
 }
-.about-img-svg-right{
+
+.about-img-svg-right {
     position: absolute;
     left: -11px;
     width: 20%;
@@ -1040,15 +1088,18 @@ p.wa3y-footer{
     z-index: 1;
     transform: rotate(180deg);
 }
-.register-section table{
+
+.register-section table {
     position: relative;
     z-index: 5;
 
 }
-.default{
+
+.default {
     position: relative;
 }
-.register-section-svg-right{
+
+.register-section-svg-right {
     position: absolute;
     right: 0;
     height: 100%;
@@ -1056,12 +1107,33 @@ p.wa3y-footer{
     z-index: 1;
     transform: rotate(180deg);
 }
-.overflow-hidden{
+
+.overflow-hidden {
     overflow: hidden;
 }
+
+.border-left-md {
+    position: relative;
+}
+
+.border-left-md::after {
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 64%;
+    bottom: 0px;
+    content: '';
+    display: block;
+    background-color: #b9bbbd;
+}
+
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;
+    }
+
+    .my-footer span.after {
+        display: none;
     }
 
     .page-title .page-breadcrumb {
@@ -1089,13 +1161,13 @@ p.wa3y-footer{
         padding-right: 95px;
     }
 }
+
 @media (min-width: 767px) {
-    .border-left-md,
-    .border-left-sm{
+    .border-left-sm {
         position: relative;
     }
-    .border-left-md::after ,
-    .border-left-sm::after{
+
+    .border-left-sm::after {
         position: absolute;
         left: 0;
         width: 2px;
@@ -1105,7 +1177,13 @@ p.wa3y-footer{
         display: block;
         background-color: #b9bbbd;
     }
-    .border-left-sm::after{
+
+    .border-left-sm::after {
         height: 38%;
+    }
+}
+@media (max-width: 768px ) {
+    .my-footer .acadime-logo {
+        max-width: 340px;
     }
 }
